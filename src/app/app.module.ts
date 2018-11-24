@@ -55,6 +55,7 @@ import { NavtabsComponent } from './navigation/navtabs/navtabs.component';
     HeaderComponent,
     SidenavListComponent,
     NavtabsComponent
+
   ],
   imports: [
     BrowserModule,

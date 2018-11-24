@@ -1,0 +1,17 @@
+@import '~@angular/material/theming';
+
+@include mat-core();
+
+
+$hotelapps-primary: mat-palette($mat-teal, 200);
+$hotelapps-accent:  mat-palette($mat-teal, 50);
+
+$hotelapps-warn:    mat-palette($mat-red);
+
+$hotelapps: mat-light-theme($hotelapps-primary, $hotelapps-accent, $hotelapps-warn);
+
+@include angular-material-theme($hotelapps);
+
+.navtabs-container {
+    background-color: mat-color($hotelapps-accent);
+}
